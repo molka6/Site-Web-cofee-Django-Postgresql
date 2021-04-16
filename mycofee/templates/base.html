@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'mycofee/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'mycofee/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'mycofee/css/pretty-checkbox.min.css' %}">
+    <title>My Coffee</title>
+</head>
+<body>   
+{%  include '_navbar.html' %}
+{% block content %}
+{% endblock %}
+{%  include '_footer.html' %}
+    <script src="{% static 'mycofee/js/jquery-3.4.1.slim.min.js' %}"></script>
+    <script src="{% static 'mycofee/js/popper.min.js' %}"></script>
+    <script src="{% static 'mycofee/js/bootstrap.min.js' %}"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+        $(".year").text( (new Date).getFullYear() );
+    </script>
+</body>
+</html>
