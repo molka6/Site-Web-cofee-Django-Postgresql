@@ -1,5 +1,5 @@
 # Site-Web-cofee-Django-Postgresql
 #superuser
   login:admin
-  mdp:1234
+  mdp:12345
   email:admin@cofee.org
