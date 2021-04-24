@@ -6,13 +6,16 @@ html, body{
   width: 100%;
 }
 
+
 a{
   color: rgb(255, 231, 204) ;
 }
 
+
 a:hover{
   color: #fff;
 }
+
 
 body{
     /*background-color: antiquewhite;*/
@@ -26,6 +29,7 @@ body{
     transition: 0.5s;
     border-radius: 20px;
 }
+
 
 .img-brand:hover{
     transform: rotate(360deg);
@@ -41,20 +45,24 @@ body{
     transition: 0.5s;
 }
 
+
 .navbar-brand:hover{
     text-shadow: 1px 1px 10px #fff,
                 -1px -1px 10px #fff;
     transform: rotate(-1deg);
 }
 
+
 .navbar-custom {
   transition:0.5s;
-  background-color: #5A020Cce; 
+  background-color: #1f2558; 
 }
 
+
 .navbar-custom:hover:not(footer) {
-  background-color: #71131Eee; 
+  background-color: #1f2558; 
 }
+
 
 .navbar li{
     transition: 0.5s;
@@ -72,9 +80,10 @@ body{
 
 
 #coffee-nav-item{
-  background-color:#5A020Cce;
+  /* background-color:#5A020Cce; */
   border-radius: 25px;
 }
+
 
 @media (min-width: 100px) {
     .animate {
@@ -84,7 +93,8 @@ body{
       -webkit-animation-fill-mode: both;
     }
 }
-  
+ 
+
 @keyframes slideIn {
     0% {
       transform: translateY(1rem);
@@ -137,8 +147,8 @@ input[type=number]:focus,
 [type=tel].form-control:focus, 
 [contenteditable].form-control:focus {
   box-shadow: inset 0 -1px 0 #dddddd00,
-             1px 1px 6px #ffc107,
-             -1px -1px 6px #ffc107;
+             1px 1px 6px #888888,
+             -1px -1px 6px #888888;
 }
 
 .carousel-inner img{
@@ -148,9 +158,10 @@ input[type=number]:focus,
 
 
 .jumbotron{
-  background-color: antiquewhite;
-  color: #71131E;
+  background-color: #b4b4b4; ;
+  
 }
+
 
 .rounded-bottom{
   border-top-left-radius: 0 !important;
@@ -170,25 +181,25 @@ input[type=number]:focus,
 }
 
 .about-img{
-  background-color: #71131E55;
+  /* background-color: #71131E55; */
 }
 
 .about-img:hover{
-  background-color: #71131E77;
+  /* background-color: #71131E77; */
 }
 
 .my-form{
-  background-color: antiquewhite;
+  background-color: #b4b4b4;
 }
 
 .my-content{
-  background-color: antiquewhite;
+  background-color: #b4b4b4;
 }
 
 .my-content h1,
 .my-content h2,
 .my-content h3{
-  color: #71131E;
+  /* color: #71131E; */
 }
 
 .my-content p{
@@ -196,7 +207,7 @@ input[type=number]:focus,
 }
 
 .my-content p:before{
-  color: #71131E;
+  /* color: #71131E; */
   content: '► ';
 }
 
